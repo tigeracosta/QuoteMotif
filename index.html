@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inspiration Generator</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>QuoteMotif</h1>
+
+  <!-- Category Filter -->
+  <div class="controls">
+    <label for="categorySelect">Filter by Category:</label>
+    <select id="categorySelect">
+      <option value="all">All</option>
+      <option value="success">Success</option>
+      <option value="happiness">Happiness</option>
+      <option value="motivation">Motivation</option>
+    </select>
+  <br>
+  <br>
+    <button id="get-quote">Get Quote</button>
+  </div>
+
+  <!-- Quote Display -->
+  <div id="quote-container">
+    <div id="quote-text"></div>
+  </div>
+
+  <!-- Buttons for Save / Share -->
+  <div class="button-container">
+    <button id="save-quote">Save Quote</button>
+    <button id="share-quote">Share Quote</button>
+  </div>
+
+  <!-- Saved Quotes -->
+  <div id="saved-quotes-container">
+    <h3>Saved Quotes:</h3>
+    <ul id="saved-quotes"></ul>
+  </div>
+   Created by Roger Acosta
+  <!-- Link to external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
