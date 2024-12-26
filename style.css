@@ -16,6 +16,17 @@ h1 {
   color: #fff;
 }
 
+@media (max-width: 600px) {
+  .logo {
+    width: 100px;
+  }
+}
+
+.logo:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
 /* Controls for category and button */
 .controls {
   margin: 20px auto;
@@ -123,3 +134,4 @@ button:hover {
 .delete-quote:hover {
   background-color: #c0392b;
 }
+
