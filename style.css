@@ -22,7 +22,7 @@ h1 {
 
 @media (max-width: 600px) {
   .logo {
-    width: 600px;
+    max0-width: 600px;
   }
 }
 
